@@ -1,0 +1,25 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  X-Frame-Options: DENY
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
+
+/assets/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/css/*
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/assets/js/site.js
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/assets/js/site-config.js
+  Cache-Control: no-store
+
+/index.html
+  Cache-Control: no-cache
+
+/site.webmanifest
+  Cache-Control: no-cache

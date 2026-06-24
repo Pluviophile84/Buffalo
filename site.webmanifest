@@ -1,0 +1,13 @@
+{
+  "name": "Buffalo ($BUFF)",
+  "short_name": "$BUFF",
+  "description": "Paper. Nickel. Gold. Blockchain. An American monetary symbol carried into its next form.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#17110d",
+  "theme_color": "#17110d",
+  "icons": [
+    {"src": "assets/images/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "assets/images/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
